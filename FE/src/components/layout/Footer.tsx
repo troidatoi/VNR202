@@ -7,7 +7,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 md:gap-0 justify-between items-start">
         {/* Logo và social */}
         <div className="flex-1 min-w-[220px] flex flex-col items-center md:items-start">
-          <div className="text-4xl font-semibold font-serif mb-8 text-amber-900">MLN131</div>
+          <div className="text-4xl font-semibold font-serif mb-8 text-amber-900">VNR202</div>
           <div className="flex gap-8 mt-2 mb-8">
             <a href="#" className="w-16 h-16 flex items-center justify-center rounded-full bg-amber-200 hover:bg-amber-300 transition text-2xl">
               <FaFacebookF />
@@ -34,26 +34,26 @@ function Footer() {
           <div>
             <div className="font-bold text-lg mb-4">Chủ đề</div>
             <ul className="space-y-3 text-base">
-              <li><Link to="/" className="hover:underline">Quyền chính trị</Link></li>
-              <li><Link to="/" className="hover:underline">Quyền kinh tế</Link></li>
-              <li><Link to="/" className="hover:underline">Quyền xã hội</Link></li>
-              <li><Link to="/" className="hover:underline">Quyền văn hóa</Link></li>
+              <li><Link to="/" className="hover:underline">Thống nhất đất nước</Link></li>
+              <li><Link to="/" className="hover:underline">Xây dựng CNXH</Link></li>
+              <li><Link to="/" className="hover:underline">Đổi mới toàn diện</Link></li>
+              <li><Link to="/" className="hover:underline">Đại hội Đảng IV</Link></li>
             </ul>
           </div>
           <div>
             <div className="font-bold text-lg mb-4">Chương trình</div>
             <ul className="space-y-3 text-base">
-              <li><Link to="/" className="hover:underline">Chương 4</Link></li>
-              <li><Link to="/" className="hover:underline">Dân chủ XHCN</Link></li>
-              <li><Link to="/" className="hover:underline">Nhà nước XHCN</Link></li>
+              <li><Link to="/" className="hover:underline">Chương 3</Link></li>
+              <li><Link to="/" className="hover:underline">Đảng lãnh đạo</Link></li>
+              <li><Link to="/" className="hover:underline">Công cuộc đổi mới</Link></li>
               <li><Link to="/login" className="hover:underline">Đăng nhập</Link></li>
             </ul>
           </div>
           <div>
             <div className="font-bold text-lg mb-4">Khác</div>
             <ul className="space-y-3 text-base">
-              <li><a href="#" className="hover:underline">Tuyên ngôn Nhân quyền</a></li>
-              <li><a href="#" className="hover:underline">Lịch sử quyền con người</a></li>
+              <li><a href="#" className="hover:underline">Lịch sử Đảng</a></li>
+              <li><a href="#" className="hover:underline">Truyền thống cách mạng</a></li>
             </ul>
           </div>
         </div>
@@ -61,7 +61,7 @@ function Footer() {
       {/* Copyright & links */}
       <div className="mt-16 border-t border-amber-200 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-amber-800">
         <div>
-          @2026 - MLN131. Nền tảng nghiên cứu Quyền con người trong XHCN
+          @2026 - VNR202. Nền tảng nghiên cứu lịch sử Đảng Cộng sản Việt Nam
         </div>
         <div className="flex gap-6 mt-4 md:mt-0">
           <a href="#" className="hover:underline">Chính sách bảo mật</a>

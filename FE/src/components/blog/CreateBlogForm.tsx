@@ -203,7 +203,7 @@ const CreateBlogForm: React.FC<CreateBlogFormProps> = ({
             {initialData ? "Sửa Bài Viết" : "Tạo Bài Viết Mới"}
           </h2>
           <p className="text-sm sm:text-base text-gray-600">
-            Chia sẻ kiến thức và cảm nhận về Quyền con người trong XHCN với cộng đồng MLN131!
+            Chia sẻ kiến thức và cảm nhận về lịch sử Đảng Cộng sản Việt Nam với cộng đồng VNR202!
           </p>
         </div>
         <form onSubmit={handleSubmit} className="space-y-6 w-full">

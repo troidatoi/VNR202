@@ -11,422 +11,422 @@ import card2 from "../assets/card2.png";
 import card3 from "../assets/card3.png";
 import card4 from "../assets/card4.png";
 
-// Triết lý và trích dẫn về Quyền con người
+// Triết lý và trích dẫn về Đảng lãnh đạo
 const philosophyQuotes = [
   {
-    quote: "Tất cả con người đều được tự do và bình đẳng về nhân phẩm và quyền lợi.",
-    author: "Tuyên ngôn Nhân quyền Quốc tế",
-    context: "Điều 1 - Tuyên ngôn Nhân quyền Quốc tế 1948"
+    quote: "Dù khó khăn gì lớn, dù muốn nào dân tộc nhất định sẽ hoàn toàn giành thắng lợi. Quê hương nhất định sẽ thống nhất. Đồng bào Nam Bắc nhất định sẽ sum họp một nhà.",
+    author: "Chủ tịch Hồ Chí Minh",
+    context: "Di chúc lịch sử"
   },
   {
-    quote: "Quyền con người là những quyền cơ bản mà mọi người đều có được, bất kể quốc tịch, giới tính, chủng tộc, ngôn ngữ hay tôn giáo.",
-    author: "Liên Hợp Quốc",
-    context: "Tuyên ngôn Nhân quyền Quốc tế"
+    quote: "Đảng lãnh đạo cả nước quá độ lên chủ nghĩa xã hội, không bỏ qua giai đoạn nào.",
+    author: "Đảng Cộng sản Việt Nam",
+    context: "Đại hội lần thứ IV của Đảng"
   },
   {
-    quote: "Trong xã hội chủ nghĩa, quyền cá nhân gắn liền với lợi ích của tập thể và xã hội.",
-    author: "Tư tưởng Mác-Lênin",
-    context: "Quan điểm XHCN về quyền con người"
+    quote: "Công cuộc đổi mới là sự nghiệp của toàn dân, dưới sự lãnh đạo của Đảng.",
+    author: "Đảng Cộng sản Việt Nam",
+    context: "Nghị quyết Đại hội VI"
   },
   {
-    quote: "Mọi người đều có quyền được sống, tự do và an toàn.",
-    author: "Tuyên ngôn Nhân quyền Quốc tế",
-    context: "Điều 3 - Tuyên ngôn Nhân quyền 1948"
+    quote: "Xây dựng chủ nghĩa xã hội là nhiệm vụ lịch sử của nhân dân ta.",
+    author: "Đảng Cộng sản Việt Nam",
+    context: "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ"
   }
 ];
 
-// Nội dung về Quyền con người trong XHCN (Chương 4)
+// Nội dung về Đảng lãnh đạo cả nước qua độ lên CNXH (Chương 3)
 const humanRightsContent = {
-  title: "Quyền con người trong Xã hội chủ nghĩa",
-  subtitle: "Chương 4: Dân chủ XHCN và Nhà nước XHCN",
+  title: "Đảng lãnh đạo cả nước quá độ lên chủ nghĩa xã hội",
+  subtitle: "Chương 3: Đảng lãnh đạo cả nước qua độ lên chủ nghĩa xã hội và tiến hành công cuộc đổi mới (từ năm 1975 đến nay)",
   principles: [
     {
-      title: "Quyền chính trị",
-      description: "Quyền tham gia quản lý nhà nước và xã hội, quyền bầu cử, quyền tự do ngôn luận.",
-      detail: "Quyền tham gia quản lý nhà nước và xã hội, quyền bầu cử, quyền tự do ngôn luận.",
+      title: "Hoàn thành thống nhất đất nước",
+      description: "Hoàn thành thống nhất đất nước về mặt nhà nước, bước vào thời kỳ mới.",
+      detail: "Hoàn thành thống nhất đất nước về mặt nhà nước, bước vào thời kỳ mới.",
       icon: "🏛️",
       color: "from-amber-600 to-amber-800",
-      examples: ["Quyền bầu cử", "Quyền tham gia quản lý nhà nước", "Quyền tự do ngôn luận"]
+      examples: ["Thống nhất hai miền", "Bầu cử Quốc hội khóa VI", "Thành lập nước CHXHCNVN"]
     },
     {
-      title: "Quyền kinh tế",
-      description: "Quyền lao động, quyền sở hữu tài sản, quyền tự do kinh doanh trong khuôn khổ pháp luật.",
-      detail: "Quyền lao động, quyền sở hữu tài sản, quyền tự do kinh doanh trong khuôn khổ pháp luật.",
-      icon: "💼",
+      title: "Xây dựng chủ nghĩa xã hội",
+      description: "Xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc trong giai đoạn 1975-1980.",
+      detail: "Xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc trong giai đoạn 1975-1980.",
+      icon: "🏗️",
       color: "from-green-500 to-green-700",
-      examples: ["Quyền lao động", "Quyền sở hữu tài sản", "Quyền tự do kinh doanh"]
+      examples: ["Xây dựng kinh tế", "Phát triển văn hóa", "Củng cố quốc phòng"]
     },
     {
-      title: "Quyền xã hội",
-      description: "Quyền được giáo dục, quyền chăm sóc sức khỏe, quyền an sinh xã hội.",
-      detail: "Quyền được giáo dục, quyền chăm sóc sức khỏe, quyền an sinh xã hội.",
-      icon: "🏥",
-      color: "from-amber-500 to-amber-700",
-      examples: ["Quyền giáo dục", "Quyền chăm sóc sức khỏe", "Quyền an sinh xã hội"]
+      title: "Đổi mới toàn diện",
+      description: "Đổi mới toàn diện đất nước theo định hướng XHCN, mở cửa hội nhập quốc tế.",
+      detail: "Đổi mới toàn diện đất nước theo định hướng XHCN, mở cửa hội nhập quốc tế.",
+      icon: "🔄",
+      color: "from-blue-500 to-blue-700",
+      examples: ["Đổi mới kinh tế", "Đổi mới chính trị", "Hội nhập quốc tế"]
     },
     {
-      title: "Quyền văn hóa",
-      description: "Quyền sáng tạo, quyền hưởng thụ văn hóa, quyền tự do tôn giáo.",
-      detail: "Quyền sáng tạo, quyền hưởng thụ văn hóa, quyền tự do tôn giáo.",
-      icon: "🎨",
-      color: "from-purple-500 to-purple-700",
-      examples: ["Quyền sáng tạo", "Quyền hưởng thụ văn hóa", "Quyền tự do tôn giáo"]
+      title: "Đại hội Đảng lần thứ IV",
+      description: "Đại hội đại biểu toàn quốc lần thứ IV của Đảng (12/1976), xác định đường lối mới.",
+      detail: "Đại hội đại biểu toàn quốc lần thứ IV của Đảng (12/1976), xác định đường lối mới.",
+      icon: "⭐",
+      color: "from-red-500 to-red-700",
+      examples: ["Đường lối đổi mới", "Kế hoạch 5 năm", "Lãnh đạo của Đảng"]
     }
   ],
   features: [
     {
-      title: "Quan điểm XHCN",
-      description: "Quyền cá nhân gắn với lợi ích xã hội, đề cao bình đẳng và công bằng xã hội.",
+      title: "Sự lãnh đạo của Đảng",
+      description: "Đảng Cộng sản Việt Nam lãnh đạo cả nước trong suốt quá trình xây dựng chủ nghĩa xã hội.",
       icon: "⚖️"
     },
     {
-      title: "Vai trò Nhà nước",
-      description: "Nhà nước bảo vệ và ban hành pháp luật để đảm bảo quyền con người.",
-      icon: "🏛️"
+      title: "Thành tựu to lớn",
+      description: "Đạt được nhiều thành tựu to lớn trong phát triển kinh tế - xã hội, cải thiện đời sống nhân dân.",
+      icon: "🏆"
     },
     {
-      title: "Quyền con người tại Việt Nam",
-      description: "Hiến pháp và pháp luật Việt Nam bảo vệ đầy đủ quyền con người theo chuẩn quốc tế.",
-      icon: "🇻🇳"
+      title: "Hội nhập quốc tế",
+      description: "Mở rộng quan hệ đối ngoại, hội nhập kinh tế quốc tế, giữ vững độc lập chủ quyền.",
+      icon: "🌍"
     }
   ]
 };
 
-// Bộ câu hỏi trắc nghiệm về Quyền con người
+// Bộ câu hỏi trắc nghiệm về Đảng lãnh đạo
 const principleQuizzes = [
   {
     principle: 0,
-    title: "Quyền chính trị",
-    detail: "Quyền tham gia quản lý nhà nước và xã hội, quyền bầu cử, quyền tự do ngôn luận.",
+    title: "Hoàn thành thống nhất đất nước",
+    detail: "Hoàn thành thống nhất đất nước về mặt nhà nước, bước vào thời kỳ mới.",
     detailedContent: {
-      introduction: "Quyền chính trị là nền tảng của dân chủ, cho phép công dân tham gia vào quá trình ra quyết định.",
+      introduction: "Sau 1975, nhiệm vụ hàng đầu là hoàn thành thống nhất đất nước về mọi mặt.",
       characteristics: [
-        "Quyền bầu cử và ứng cử",
-        "Quyền tham gia quản lý nhà nước",
-        "Quyền tự do ngôn luận",
-        "Quyền lập hội"
+        "Thống nhất hai miền Bắc - Nam",
+        "Bầu cử Quốc hội chung",
+        "Thành lập nước Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+        "Thống nhất hệ thống pháp luật"
       ],
-      mechanism: "Công dân tham gia vào các hoạt động chính trị thông qua bầu cử, biểu tình hợp pháp, và các tổ chức chính trị."
+      mechanism: "Đảng lãnh đạo quá trình thống nhất đất nước về mặt nhà nước."
     },
     examples: [
       {
-        title: "Quyền bầu cử",
-        content: "Công dân từ 18 tuổi trở lên có quyền bầu cử đại biểu Quốc hội và Hội đồng nhân dân các cấp.",
+        title: "Tổng tuyển cử 1976",
+        content: "Ngày 25/4/1976, cuộc Tổng tuyển cử bầu Quốc hội chung của nước Việt Nam thống nhất đã được tiến hành với hơn 23 triệu cử tri tham gia.",
         visual: "🗳️"
       },
       {
-        title: "Quyền tham gia quản lý",
-        content: "Công dân có quyền tham gia thảo luận các vấn đề chung của cộng đồng, đóng góp ý kiến cho hoạt động của cơ quan nhà nước.",
-        visual: "📢"
+        title: "Quốc hội khóa VI",
+        content: "Quốc hội khóa VI họp từ 24/6 đến 3/7/1976 tại Hà Nội, thành lập các cơ quan nhà nước mới.",
+        visual: "🏛️"
       }
     ],
     questions: [
       {
-        question: "Quyền chính trị cơ bản nào cho phép công dân tham gia bầu cử?",
+        question: "Nhiệm vụ hàng đầu của Đảng sau năm 1975 là gì?",
         options: [
-          "Quyền tự do ngôn luận",
-          "Quyền bầu cử",
-          "Quyền sở hữu tài sản",
-          "Quyền giáo dục"
+          "Xây dựng kinh tế",
+          "Hoàn thành thống nhất đất nước",
+          "Phát triển văn hóa",
+          "Mở cửa đối ngoại"
         ],
         correct: 1,
-        explanation: "Quyền bầu cử là quyền chính trị cơ bản, cho phép công dân tham gia vào quá trình bầu ra đại biểu đại diện cho mình."
+        explanation: "Sau khi chiến thắng 1975, nhiệm vụ hàng đầu là hoàn thành thống nhất đất nước về mọi mặt."
       },
       {
-        question: "Theo quan điểm XHCN, quyền chính trị gắn liền với điều gì?",
+        question: "Cuộc Tổng tuyển cử bầu Quốc hội chung được tổ chức vào ngày nào?",
         options: [
-          "Quyền lợi cá nhân",
-          "Lợi ích tập thể và xã hội",
-          "Quyền lực kinh tế",
-          "Quyền tự do tuyệt đối"
+          "25/4/1975",
+          "25/4/1976",
+          "25/4/1977",
+          "25/4/1978"
         ],
         correct: 1,
-        explanation: "Trong XHCN, quyền cá nhân gắn liền với lợi ích của tập thể và xã hội."
+        explanation: "Ngày 25/4/1976, cuộc Tổng tuyển cử bầu Quốc hội chung của nước Việt Nam thống nhất đã được tiến hành."
       },
       {
-        question: "Quyền tự do ngôn luận trong XHCN được thực hiện theo cách nào?",
+        question: "Quốc hội khóa VI họp tại đâu?",
         options: [
-          "Tự do tuyệt đối",
-          "Trong khuôn khổ pháp luật",
-          "Không có giới hạn",
-          "Chỉ trong gia đình"
+          "Thành phố Hồ Chí Minh",
+          "Đà Nẵng",
+          "Hà Nội",
+          "Huế"
         ],
-        correct: 1,
-        explanation: "Quyền tự do ngôn luận được thực hiện trong khuôn khổ pháp luật, đảm bảo trật tự xã hội."
+        correct: 2,
+        explanation: "Quốc hội khóa VI họp từ 24/6 đến 3/7/1976 tại Thủ đô Hà Nội."
       },
       {
-        question: "Ai có quyền bầu cử tại Việt Nam?",
+        question: "Tỷ lệ cử tri tham gia bầu cử Quốc hội 1976 là bao nhiêu?",
         options: [
-          "Tất cả công dân từ 18 tuổi trở lên",
-          "Chỉ người trưởng thành có thu nhập",
-          "Chỉ người có học vấn cao",
-          "Chỉ người có tài sản"
+          "78,77%",
+          "88,77%",
+          "98,77%",
+          "100%"
         ],
-        correct: 0,
-        explanation: "Tất cả công dân Việt Nam từ 18 tuổi trở lên đều có quyền bầu cử, không phân biệt giới tính, dân tộc, tôn giáo."
+        correct: 2,
+        explanation: "Hơn 23 triệu cử tri, đại biểu 98,77% tổng số cử tri đã đi bầu."
       },
       {
-        question: "Quyền tham gia quản lý nhà nước bao gồm những gì?",
+        question: "Ai được bầu làm Chủ tịch nước tại Quốc hội khóa VI?",
         options: [
-          "Chỉ quyền bầu cử",
-          "Quyền đóng góp ý kiến, tham gia thảo luận các vấn đề chung",
-          "Chỉ quyền biểu tình",
-          "Chỉ quyền thành lập đảng"
+          "Phạm Văn Đồng",
+          "Trường Chinh",
+          "Tôn Đức Thắng",
+          "Lê Duẩn"
         ],
-        correct: 1,
-        explanation: "Quyền tham gia quản lý nhà nước bao gồm nhiều hình thức như bầu cử, đóng góp ý kiến, tham gia thảo luận."
+        correct: 2,
+        explanation: "Quốc hội đã bầu đồng chí Tôn Đức Thắng làm Chủ tịch nước."
       }
     ]
   },
   {
     principle: 1,
-    title: "Quyền kinh tế",
-    detail: "Quyền lao động, quyền sở hữu tài sản, quyền tự do kinh doanh trong khuôn khổ pháp luật.",
+    title: "Xây dựng chủ nghĩa xã hội",
+    detail: "Xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc trong giai đoạn 1975-1980.",
     detailedContent: {
-      introduction: "Quyền kinh tế đảm bảo cho con người có khả năng tự nuôi sống bản thân và gia đình.",
+      introduction: "Sau khi thống nhất, Đảng lãnh đạo xây dựng chủ nghĩa xã hội trên phạm vi cả nước.",
       characteristics: [
-        "Quyền lao động và lựa chọn nghề nghiệp",
-        "Quyền sở hữu tài sản hợp pháp",
-        "Quyền tự do kinh doanh",
-        "Quyền được trả công công bằng"
+        "Xây dựng cơ sở vật chất",
+        "Phát triển văn hóa - giáo dục",
+        "Củng cố quốc phòng",
+        "Ổn định đời sống nhân dân"
       ],
-      mechanism: "Nhà nước tạo điều kiện cho người lao động có việc làm, bảo vệ quyền lợi người lao động."
+      mechanism: "Đảng xây dựng kế hoạch 5 năm, huy động sức mạnh toàn dân."
     },
     examples: [
       {
-        title: "Quyền lao động",
-        content: "Người lao động có quyền làm việc, lựa chọn nghề nghiệp, hưởng lương công bằng và an toàn lao động.",
-        visual: "👷"
+        title: "Kế hoạch 5 năm 1976-1980",
+        content: "Đại hội IV của Đảng thông qua Kế hoạch nhà nước 5 năm (1976-1980).",
+        visual: "📋"
       },
       {
-        title: "Quyền sở hữu tài sản",
-        content: "Tài sản hợp pháp của cá nhân được pháp luật bảo vệ, không ai bị tước đoạt tài sản một cách bất hợp pháp.",
-        visual: "🏠"
+        title: "Phát triển thủy điện",
+        content: "Xây dựng các công trình thủy điện lớn như thủy điện Hòa Bình, phục vụ sản xuất và đời sống.",
+        visual: "⚡"
       }
     ],
     questions: [
       {
-        question: "Quyền lao động cơ bản bao gồm những gì?",
+        question: "Đại hội lần thứ IV của Đảng họp vào thời gian nào?",
         options: [
-          "Chỉ quyền được làm việc",
-          "Quyền được trả lương công bằng, an toàn lao động, nghỉ ngơi",
-          "Chỉ quyền chọn nơi làm việc",
-          "Chỉ quyền nghỉ việc"
+          "Tháng 10/1976",
+          "Tháng 12/1976",
+          "Tháng 6/1977",
+          "Tháng 8/1977"
         ],
         correct: 1,
-        explanation: "Quyền lao động toàn diện bao gồm: làm việc, lựa chọn nghề nghiệp, hưởng lương công bằng, an toàn lao động và nghỉ ngơi."
+        explanation: "Đại hội lần thứ IV của Đảng họp từ ngày 14 đến ngày 20/12/1976 tại Hà Nội."
       },
       {
-        question: "Trong XHCN, quyền sở hữu tài sản được quy định như thế nào?",
+        question: "Kế hoạch nhà nước 5 năm (1976-1980) được thông qua tại đâu?",
         options: [
-          "Không ai được sở hữu tài sản",
-          "Tài sản hợp pháp được pháp luật bảo vệ",
-          "Chỉ nhà nước được sở hữu",
-          "Tài sản không được bảo vệ"
+          "Đại hội III",
+          "Đại hội IV",
+          "Đại hội V",
+          "Đại hội VI"
         ],
         correct: 1,
-        explanation: "Pháp luật XHCN bảo vệ quyền sở hữu tài sản hợp pháp của cá nhân."
+        explanation: "Đại hội IV của Đảng đã thông qua Báo cáo về phương hướng, nhiệm vụ và mục tiêu Kế hoạch nhà nước 5 năm (1976-1980)."
       },
       {
-        question: "Quyền tự do kinh doanh trong XHCN được thực hiện như thế nào?",
+        question: "Nhiệm vụ chính trong giai đoạn 1975-1980 là gì?",
         options: [
-          "Không giới hạn",
-          "Trong khuôn khổ pháp luật",
-          "Chỉ nhà nước được kinh doanh",
-          "Cấm kinh doanh tư nhân"
+          "Phát triển du lịch",
+          "Xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc",
+          "Mở cửa kinh tế",
+          "Gia nhập ASEAN"
         ],
         correct: 1,
-        explanation: "Quyền tự do kinh doanh được thực hiện trong khuôn khổ pháp luật, đảm bảo trật tự kinh tế."
+        explanation: "Nhiệm vụ chính là xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc trong giai đoạn 1975-1980."
       },
       {
-        question: "Người lao động có quyền gì về điều kiện lao động?",
+        question: "Đâu là một trong những mục tiêu kinh tế của giai đoạn này?",
         options: [
-          "Làm việc bất kỳ điều kiện nào",
-          "Làm việc trong môi trường an toàn, hưởng lương công bằng",
-          "Không có quyền gì",
-          "Chỉ có quyền nghỉ việc"
+          "Phát triển công nghiệp nhẹ",
+          "Hoàn thành hệ thống thủy điện để phục vụ sản xuất",
+          "Tập trung vào xuất khẩu",
+          "Kinh tế thị trường"
         ],
         correct: 1,
-        explanation: "Người lao động có quyền làm việc trong môi trường an toàn, hưởng lương công bằng theo pháp luật."
+        explanation: "Mục tiêu là hoàn thành hệ thống thủy điện để phục vụ sản xuất, phát triển công nghiệp và nông nghiệp."
       },
       {
-        question: "Mục đích của quyền kinh tế trong XHCN là gì?",
+        question: "Trong giai đoạn này, Đảng tập trung vào việc gì?",
         options: [
-          "Chỉ để lợi ích cá nhân",
-          "Đảm bảo đời sống vật chất, tạo điều kiện phát triển toàn diện cho con người",
-          "Chỉ để nhà nước giàu có",
-          "Không có mục đích gì"
+          "Xây dựng cơ sở vật chất và văn hóa",
+          "Chỉ xây dựng quân sự",
+          "Chỉ phát triển giáo dục",
+          "Không có kế hoạch cụ thể"
         ],
-        correct: 1,
-        explanation: "Quyền kinh tế nhằm đảm bảo đời sống vật chất và tạo điều kiện phát triển toàn diện cho con người."
+        correct: 0,
+        explanation: "Đảng tập trung xây dựng cơ sở vật chất, phát triển văn hóa - giáo dục và củng cố quốc phòng."
       }
     ]
   },
   {
     principle: 2,
-    title: "Quyền xã hội",
-    detail: "Quyền được giáo dục, quyền chăm sóc sức khỏe, quyền an sinh xã hội.",
+    title: "Đổi mới toàn diện",
+    detail: "Đổi mới toàn diện đất nước theo định hướng XHCN, mở cửa hội nhập quốc tế.",
     detailedContent: {
-      introduction: "Quyền xã hội đảm bảo mọi người có cơ hội phát triển và được bảo vệ trước các rủi ro xã hội.",
+      introduction: "Đổi mới là bước ngoặt lịch sử trong công cuộc xây dựng chủ nghĩa xã hội.",
       characteristics: [
-        "Quyền được giáo dục và đào tạo",
-        "Quyền chăm sóc sức khỏe",
-        "Quyền an sinh xã hội",
-        "Quyền được hưởng các thành tựu văn minh"
+        "Đổi mới tư duy",
+        "Đổi mới cơ chế kinh tế",
+        "Mở cửa đối ngoại",
+        "Giữ vững định hướng XHCN"
       ],
-      mechanism: "Nhà nước và xã hội cùng tạo điều kiện để mọi người tiếp cận các dịch vụ xã hội cơ bản."
+      mechanism: "Đổi mới toàn diện dưới sự lãnh đạo của Đảng, phát huy sức mạnh toàn dân."
     },
     examples: [
       {
-        title: "Quyền giáo dục",
-        content: "Mọi người có quyền được học tập, nhà nước tạo điều kiện giáo dục miễn phí các cấp.",
-        visual: "📚"
+        title: "Đại hội VI (1986)",
+        content: "Đại hội VI năm 1986 đánh dấu bước ngoặt quan trọng với chính sách đổi mới.",
+        visual: "🔄"
       },
       {
-        title: "Quyền chăm sóc sức khỏe",
-        content: "Người dân có quyền được khám bệnh, chữa bệnh, tham gia bảo hiểm y tế.",
-        visual: "🏥"
+        title: "Hội nhập quốc tế",
+        content: "Việt Nam mở rộng quan hệ đối ngoại, tham gia các tổ chức quốc tế.",
+        visual: "🌍"
       }
     ],
     questions: [
       {
-        question: "Quyền giáo dục được thể hiện như thế nào tại Việt Nam?",
+        question: "Đổi mới được khởi xướng tại Đại hội nào?",
         options: [
-          "Chỉ giáo dục mầm non miễn phí",
-          "Giáo dục tiểu học và trung học cơ sở bắt buộc, miễn phí",
-          "Chỉ đại học miễn phí",
-          "Không có giáo dục miễn phí"
+          "Đại hội IV",
+          "Đại hội V",
+          "Đại hội VI",
+          "Đại hội VII"
         ],
-        correct: 1,
-        explanation: "Việt Nam thực hiện giáo dục tiểu học và trung học cơ sở bắt buộc, miễn phí."
+        correct: 2,
+        explanation: "Đại hội VI năm 1986 đánh dấu bước ngoặt quan trọng với chính sách đổi mới."
       },
       {
-        question: "Quyền chăm sóc sức khỏe được đảm bảo thông qua gì?",
+        question: "Đổi mới tập trung vào điều gì?",
         options: [
-          "Chỉ bệnh viện tư nhân",
-          "Hệ thống bảo hiểm y tế, mạng lưới y tế cơ sở",
-          "Chỉ người già mới được chăm sóc",
-          "Không có quyền này"
+          "Thay đổi đảng cầm quyền",
+          "Đổi mới cơ chế kinh tế, giữ định hướng XHCN",
+          "Xóa bỏ chủ nghĩa xã hội",
+          "Chỉ thay đổi về chính trị"
         ],
         correct: 1,
-        explanation: "Bảo hiểm y tế và mạng lưới y tế cơ sở đảm bảo quyền chăm sóc sức khỏe cho mọi người."
+        explanation: "Đổi mới tập trung vào đổi mới cơ chế kinh tế, đồng thời giữ vững định hướng chủ nghĩa xã hội."
       },
       {
-        question: "An sinh xã hội trong XHCN bao gồm những gì?",
+        question: "Mục tiêu của công cuộc đổi mới là gì?",
         options: [
-          "Chỉ trợ cấp người nghèo",
-          "Bảo hiểm xã hội, bảo hiểm thất nghiệp, trợ cấp đặc biệt",
-          "Chỉ dành cho người già",
-          "Không có an sinh xã hội"
+          "Xây dựng chủ nghĩa tư bản",
+          "Xây dựng chủ nghĩa xã hội, phát triển kinh tế",
+          "Phục hồi chế độ thuộc địa",
+          "Rời bỏ định hướng XHCN"
         ],
         correct: 1,
-        explanation: "An sinh xã hội bao gồm bảo hiểm xã hội, bảo hiểm thất nghiệp và các chế độ trợ cấp đặc biệt."
+        explanation: "Mục tiêu là xây dựng chủ nghĩa xã hội và phát triển kinh tế đất nước."
       },
       {
-        question: "Mọi người có quyền tiếp cận các thành tựu văn minh như thế nào?",
+        question: "Trong đổi mới, Việt Nam có chính sách gì về đối ngoại?",
         options: [
-          "Phải trả phí cao",
-          "Nhà nước tạo điều kiện tiếp cận các dịch vụ văn hóa, thông tin",
-          "Chỉ người có tiền mới được",
-          "Không ai được tiếp cận"
+          "Đóng cửa hoàn toàn",
+          "Mở cửa, hội nhập quốc tế",
+          "Chỉ hợp tác với các nước xã hội chủ nghĩa",
+          "Không tham gia tổ chức quốc tế"
         ],
         correct: 1,
-        explanation: "Nhà nước tạo điều kiện để mọi người đều có thể tiếp cận các thành tựu văn minh."
+        explanation: "Việt Nam mở cửa, mở rộng quan hệ đối ngoại và hội nhập quốc tế."
       },
       {
-        question: "Trẻ em có những quyền xã hội nào?",
+        question: "Điều nào được giữ vững trong công cuộc đổi mới?",
         options: [
-          "Không có quyền gì",
-          "Quyền được học tập, chăm sóc sức khỏe, bảo vệ",
-          "Chỉ quyền được ăn uống",
-          "Chỉ quyền được đi học"
+          "Thay đổi hoàn toàn hệ thống",
+          "Giữ vững định hướng chủ nghĩa xã hội",
+          "Xóa bỏ vai trò lãnh đạo của Đảng",
+          "Chỉ đổi mới về kinh tế"
         ],
         correct: 1,
-        explanation: "Trẻ em có quyền được học tập, chăm sóc sức khỏe, bảo vệ khỏi bạo lực và bóc lột."
+        explanation: "Trong công cuộc đổi mới, Việt Nam giữ vững định hướng chủ nghĩa xã hội và vai trò lãnh đạo của Đảng."
       }
     ]
   },
   {
     principle: 3,
-    title: "Quyền văn hóa",
-    detail: "Quyền sáng tạo, quyền hưởng thụ văn hóa, quyền tự do tôn giáo.",
+    title: "Đại hội Đảng lần thứ IV",
+    detail: "Đại hội đại biểu toàn quốc lần thứ IV của Đảng (12/1976), xác định đường lối mới.",
     detailedContent: {
-      introduction: "Quyền văn hóa đảm bảo cho con người được phát triển về tinh thần, tham gia vào đời sống văn hóa.",
+      introduction: "Đại hội IV là đại hội thống nhất đầu tiên của Đảng sau khi đất nước thống nhất.",
       characteristics: [
-        "Quyền tham gia đời sống văn hóa",
-        "Quyền sáng tạo văn hóa, nghệ thuật",
-        "Quyền tự do tôn giáo",
-        "Quyền bảo tồn và phát huy bản sắc văn hóa dân tộc"
+        "Đại hội thống nhất đầu tiên",
+        "Thông qua kế hoạch 5 năm",
+        "Xác định đường lối xây dựng XHCN",
+        "Bầu Ban Chấp hành Trung ương mới"
       ],
-      mechanism: "Nhà nước tôn trọng và tạo điều kiện cho hoạt động văn hóa, tôn giáo."
+      mechanism: "Đại hội quyết định đường lối, kế hoạch phát triển đất nước."
     },
     examples: [
       {
-        title: "Quyền sáng tạo",
-        content: "Mọi người có quyền sáng tác, nghiên cứu khoa học, phát triển công nghệ.",
-        visual: "✍️"
+        title: "Đại biểu tham dự",
+        content: "Đại hội có 1.008 đại biểu, thay mặt hơn 1,7 triệu đảng viên.",
+        visual: "👥"
       },
       {
-        title: "Quyền tự do tôn giáo",
-        content: "Người dân có quyền tin hoặc không tin tôn giáo, thực hành tín ngưỡng theo quy định pháp luật.",
-        visual: "🕉️"
+        title: "Kế hoạch phát triển",
+        content: "Đại hội thông qua Kế hoạch nhà nước 5 năm (1976-1980) và các nghị quyết quan trọng.",
+        visual: "📊"
       }
     ],
     questions: [
       {
-        question: "Quyền văn hóa trong XHCN bao gồm những gì?",
+        question: "Đại hội lần thứ IV của Đảng được tổ chức tại đâu?",
         options: [
-          "Chỉ quyền xem phim",
-          "Quyền sáng tạo, hưởng thụ văn hóa, tự do tôn giáo",
-          "Chỉ quyền đi lễ chùa",
-          "Không có quyền văn hóa"
+          "Thành phố Hồ Chí Minh",
+          "Đà Nẵng",
+          "Hà Nội",
+          "Huế"
         ],
-        correct: 1,
-        explanation: "Quyền văn hóa bao gồm: quyền sáng tạo, quyền hưởng thụ văn hóa và quyền tự do tôn giáo."
+        correct: 2,
+        explanation: "Đại hội lần thứ IV của Đảng họp từ ngày 14 đến ngày 20/12/1976 tại Hà Nội."
       },
       {
-        question: "Quyền tự do tôn giáo được thực hiện như thế nào?",
+        question: "Đại hội IV có bao nhiêu đại biểu tham dự?",
         options: [
-          "Tự do tuyệt đối",
-          "Trong khuôn khổ pháp luật, không được lợi dụng tôn giáo",
-          "Chỉ được tin một tôn giáo",
-          "Cấm tất cả tôn giáo"
+          "508 đại biểu",
+          "1.008 đại biểu",
+          "2.008 đại biểu",
+          "3.008 đại biểu"
         ],
         correct: 1,
-        explanation: "Quyền tự do tôn giáo được thực hiện trong khuôn khổ pháp luật, đảm bảo trật tự xã hội."
+        explanation: "Đại hội có 1.008 đại biểu, thay mặt hơn 1,7 triệu đảng viên."
       },
       {
-        question: "Mọi người có quyền gì trong việc bảo tồn văn hóa?",
+        question: "Đại hội IV thông qua văn kiện quan trọng nào?",
         options: [
-          "Không được phép",
-          "Quyền bảo tồn và phát huy bản sắc văn hóa dân tộc",
-          "Chỉ nhà nước được bảo tồn",
-          "Chỉ người già mới được giữ"
+          "Kế hoạch 10 năm",
+          "Kế hoạch nhà nước 5 năm (1976-1980)",
+          "Chiến lược phát triển 20 năm",
+          "Luật Doanh nghiệp"
         ],
         correct: 1,
-        explanation: "Mọi người có quyền tham gia bảo tồn và phát huy bản sắc văn hóa dân tộc."
+        explanation: "Đại hội đã thông qua Kế hoạch nhà nước 5 năm (1976-1980)."
       },
       {
-        question: "Quyền sáng tạo được bảo vệ như thế nào?",
+        question: "Đại hội IV là đại hội gì sau khi đất nước thống nhất?",
         options: [
-          "Không được bảo vệ",
-          "Thông qua luật sở hữu trí tuệ, quyền tác giả",
-          "Chỉ sáng tác văn học mới được bảo vệ",
-          "Phải đăng ký trước"
+          "Đại hội thường lệ",
+          "Đại hội thống nhất đầu tiên",
+          "Đại hội bất thường",
+          "Đại hội kỷ niệm"
         ],
         correct: 1,
-        explanation: "Luật sở hữu trí tuệ và quyền tác giả bảo vệ quyền sáng tạo của cá nhân."
+        explanation: "Đại hội IV là đại hội thống nhất đầu tiên của Đảng sau khi đất nước thống nhất."
       },
       {
-        question: "Trong XHCN, quyền văn hóa có mối quan hệ như thế nào với quyền khác?",
+        question: "Đại hội IV xác định đường lối gì cho giai đoạn mới?",
         options: [
-          "Độc lập hoàn toàn",
-          "Quyền văn hóa là một phần của quyền con người, liên quan mật thiết với quyền xã hội",
-          "Không liên quan gì",
-          "Quyền văn hóa quan trọng hơn tất cả"
+          "Xây dựng chủ nghĩa xã hội trên phạm vi cả nước",
+          "Tiếp tục chiến tranh",
+          "Kinh tế thị trường tự do",
+          "Rời bỏ chủ nghĩa xã hội"
         ],
-        correct: 1,
-        explanation: "Quyền văn hóa là một phần không thể thiếu của quyền con người, liên quan mật thiết với các quyền khác."
+        correct: 0,
+        explanation: "Đại hội IV xác định đường lối xây dựng chủ nghĩa xã hội trên phạm vi cả nước."
       }
     ]
   }
@@ -608,9 +608,9 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            Quyền con người trong Xã hội chủ nghĩa
+            Đảng lãnh đạo cả nước quá độ lên chủ nghĩa xã hội
             <span className="block text-amber-700 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mt-2 sm:mt-4 font-light italic">
-              Chương 4: Dân chủ XHCN và Nhà nước XHCN
+              Chương 3: Đảng lãnh đạo cả nước và công cuộc đổi mới (1975 - nay)
             </span>
           </motion.h1>
 
@@ -686,7 +686,7 @@ export default function Home() {
               {humanRightsContent.title}
             </h2>
             <motion.p
-              className="text-base sm:text-lg md:text-xl text-amber-700 max-w-3xl mx-auto"
+              className="text-base sm:text-lg md:text-xl text-amber-700 max-w-4xl mx-auto"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -729,7 +729,7 @@ export default function Home() {
                   )}
                   <div className="mt-auto text-center w-full">
                     <span className="inline-block w-full py-2 sm:py-3 bg-amber-100 text-amber-800 rounded-full text-xs sm:text-sm font-bold border-2 border-amber-200 transition group-hover:bg-amber-600 group-hover:text-white group-hover:border-amber-700">
-                      Bấm để học và kiểm tra
+                      Bấm để tìm hiểu và kiểm tra
                     </span>
                   </div>
                 </div>
@@ -746,7 +746,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-amber-900 text-center mb-4 sm:mb-6 md:mb-8" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Đặc điểm quyền con người trong XHCN
+              Đặc điểm quá trình lãnh đạo của Đảng
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
               {humanRightsContent.features.map((feature, index) => (
@@ -898,10 +898,10 @@ export default function Home() {
                   <div className="bg-amber-50 rounded-xl p-4 mb-6 text-left">
                     <p className="text-amber-900">
                       {score >= principleQuizzes[selectedPrinciple].questions.length * 0.7
-                        ? '🎉 Tuyệt vời! Bạn đã nắm vững kiến thức về quyền con người trong XHCN!'
+                        ? '🎉 Tuyệt vời! Bạn đã nắm vững kiến thức về sự lãnh đạo của Đảng!'
                         : score >= principleQuizzes[selectedPrinciple].questions.length * 0.5
                         ? '📚 Tốt! Bạn cần ôn tập thêm một chút nữa.'
-                        : '📖 Hãy ôn tập lại kiến thức để hiểu rõ hơn về quyền con người trong XHCN nhé!'}
+                        : '📖 Hãy ôn tập lại kiến thức để hiểu rõ hơn về quá trình lãnh đạo của Đảng nhé!'}
                     </p>
                   </div>
                   <button

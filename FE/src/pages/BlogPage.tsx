@@ -158,7 +158,7 @@ function BlogPage() {
       <div className="bg-light pt-4 pb-8 text-center border-b border-amber-200">
         <h1 className="text-5xl md:text-6xl font-extrabold text-amber-950 mb-4 tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>Blog</h1>
         <p className="text-lg md:text-xl text-amber-800 font-medium max-w-2xl mx-auto">
-          Khám phá những bài viết sâu sắc về Quyền con người trong XHCN và Dân chủ XHCN.
+          Khám phá những bài viết sâu sắc về lịch sử Đảng Cộng sản Việt Nam và công cuộc đổi mới.
         </p>
       </div>
 

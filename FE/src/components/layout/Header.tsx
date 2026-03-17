@@ -62,7 +62,7 @@ function Header() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <span className="text-lg sm:text-xl font-semibold text-amber-800">
-                MLN131
+                VNR202
               </span>
             </Link>
           </div>
@@ -79,7 +79,7 @@ function Header() {
               Tạp chí
             </Link>
             <Link to="/about-us" className={isActive('/about-us') ? activeStyle : defaultStyle}>
-              About Us
+              Về chúng tôi
             </Link>
           </nav>
 
@@ -195,7 +195,7 @@ function Header() {
               className={`block px-3 py-2 text-base font-medium rounded-md ${isActive('/about-us') ? 'bg-gray-100 text-gray-900' : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'}`}
               onClick={() => setShowMobileMenu(false)}
             >
-              About Us
+              Về chúng tôi
             </Link>
             {!user && (
               <Link

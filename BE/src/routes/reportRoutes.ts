@@ -1,0 +1,11 @@
+import { Router } from "express";
+import { createReport, getReportByConsultantId, getReportByAccountId, getReportByAppointmentId, getReportById, updateReport } from "../controllers/reportController";
+import { authMiddleware, roleMiddleware } from "../middleware";
+const router = Router();
+router.post("/",authMiddleware,roleMiddleware(["admin","consultant"]), createReport);
+router.get("/appointment/:id", getReportByAppointmentId);
+router.get("/account/:id", getReportByAccountId);
+router.get("/consultant/:id", getReportByConsultantId);
+router.get("/:id", getReportById);
+router.put("/:id",authMiddleware,roleMiddleware(["admin","consultant"]), updateReport);
+export default router;

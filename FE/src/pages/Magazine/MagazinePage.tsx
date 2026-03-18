@@ -17,9 +17,7 @@ import Page12Img from "../../assets/12.png";
 import Page13Img from "../../assets/13.png";
 import Page14Img from "../../assets/14.png";
 import Page15Img from "../../assets/15.png";
-import Page16Img from "../../assets/16.png";
-import Page17Img from "../../assets/17.png";
-import Page18Img from "../../assets/18.png";
+
 
 
 const MagazinePage: React.FC = () => {
@@ -59,9 +57,7 @@ const MagazinePage: React.FC = () => {
             12: Page13Img,
             13: Page14Img,
             14: Page15Img,
-            15: Page16Img,
-            16: Page17Img,
-            17: Page18Img,
+
         };
 
         // If we have an image for this page, display it

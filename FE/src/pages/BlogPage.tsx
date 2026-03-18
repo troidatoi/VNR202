@@ -18,7 +18,7 @@ interface Blog {
   image?: string;
   thumbnail?: string;
   topics?: string[];
-  published: boolean;
+  published: 'draft' | 'published' | 'unpublished' | 'rejected';
   createdAt: string;
   updatedAt: string;
   anDanh: boolean;
@@ -57,7 +57,9 @@ function BlogPage() {
       setLoading(true);
       try {
         const allBlogs = await getAllBlogsApi();
-        setBlogs(allBlogs); // getAllBlogsApi now only returns published blogs for non-admin users
+        // Filter only published blogs
+        const publishedBlogs = allBlogs.filter((blog: Blog) => blog.published === 'published');
+        setBlogs(publishedBlogs);
         setError(null);
       } catch (err) {
         setError('Không thể tải danh sách bài viết. Vui lòng thử lại sau.');

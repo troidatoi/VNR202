@@ -255,7 +255,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
             <div className="flex items-center justify-center h-16">
               <Link to={baseUrl} className="text-xl font-bold text-red-800 text-center px-4">
                 {user?.role === "admin"
-                  ? "Tạp chí Hùng Admin"
+                  ? "VNR202 Admin"
                   : "Cộng tác viên"}
               </Link>
             </div>
@@ -282,7 +282,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
           {/* Footer */}
           <div className="p-4 border-t">
             <div className="text-center text-xs text-gray-400">
-              @2026 TẠP CHÍ HÙNG
+              @2026 VNR202
             </div>
           </div>
         </div>

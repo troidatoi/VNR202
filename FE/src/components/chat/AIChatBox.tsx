@@ -79,7 +79,7 @@ const AIChatBox: React.FC = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-sm">Trợ Lý AI - VNR202</h3>
-                                    <p className="text-xs opacity-80">Chuyên về lịch sử Đảng</p>
+                                    <p className="text-xs opacity-80">Chuyên về Đảng lãnh đạo quá độ lên CNXH</p>
                                 </div>
                             </div>
                             <button
@@ -99,7 +99,7 @@ const AIChatBox: React.FC = () => {
                                 <div className="text-center py-10">
                                     <span className="text-4xl block mb-2">👋</span>
                                     <p className="text-amber-800 font-medium">Xin chào! Tôi hỗ trợ môn VNR202</p>
-                                    <p className="text-xs text-amber-600 mt-1">Hỏi tôi về lịch sử Đảng nhé.</p>
+                                    <p className="text-xs text-amber-600 mt-1">Hỏi tôi về Đảng lãnh đạo quá độ lên CNXH nhé.</p>
                                 </div>
                             )}
                             {messages.map((m, i) => (

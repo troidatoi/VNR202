@@ -328,7 +328,7 @@ function ConsultantDetailPage() {
             <div className="flex flex-col gap-1 text-gray-500 text-sm w-full items-center mb-4">
               <span>Email: {consultant.accountId?.email || 'Không có email'}</span>
               <span>SĐT: {consultant.accountId?.phoneNumber || 'Không có số điện thoại'}</span>
-              <span>Số năm cộng tác tại Tạp chí Hùng: {(() => {
+              <span>Số năm cộng tác tại VNR202: {(() => {
                 if (!consultant.startDateofWork) return 'Chưa cập nhật';
                 const startYear = new Date(consultant.startDateofWork).getFullYear();
                 if (isNaN(startYear)) return 'Chưa cập nhật';
